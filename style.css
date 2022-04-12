@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: rgb(0, 0, 0);
     background-attachment: scroll;
-    background-image: url(bg.png);
+    background-image: url(charts\ black.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -650,7 +650,7 @@ section h3.section-subheading {
 
 section#contact {
     background-color: #222;
-    background-image: url(bg2.png);
+    background-image: url(charts\ black.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
