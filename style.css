@@ -263,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-attachment: scroll;
     background-image: url(bg.png);
     background-position: center center;
