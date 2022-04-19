@@ -125,7 +125,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #222;
     background-color: #a88877;
 }
 
@@ -293,9 +293,9 @@ padding: 15px 15px 15px 0;
 
 header {
     text-align: center;
-    color: #fff;
+    color: #222;
     background-attachment: scroll;
-    background-image: url(charts\ black.jpg);
+    background-image: url(charts2.jpeg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -680,13 +680,13 @@ section h3.section-subheading {
 
 section#contact {
     background-color: #f5f2ea;
-    background-image: url(charts\ black.jpg);
+    background-image: url(charts2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #222;
 }
 
 section#contact .form-group {
