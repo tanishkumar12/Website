@@ -241,8 +241,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-logo {
-    padding-top: 7px;
-    width: 65px;
+    padding-top: 0px;
+    width: 85px;
     object-fit: contain;
 
 }
