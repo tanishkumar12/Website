@@ -39,7 +39,7 @@
 
               
 
-               <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden active">
@@ -80,29 +80,61 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-
-        <!-- Performance Grid Section -->
-        <section id="performance" class="bg-light-gray">
+         <!-- Blogs Section -->
+         <section id="Blogs" class="bg-light-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Performance</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading">Blogs</h2>
                     </div>
                 </div>
-                <div class="mtd charts">
-                    <h3>Chart</h3>
-                    <div>
-                      <canvas id="doughnut"></canvas>
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                      <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                          
+                          <img src="1.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                          <span class="blog-slider__code">15 April 2022</span>
+                          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+                          <a href="#" class="blog-slider__button">READ MORE</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                          <img src="2.jpeg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                          <span class="blog-slider__code">15 April 2022</span>
+                          <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+                          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+                          <a href="#" class="blog-slider__button">READ MORE</a>
+                        </div>
+                      </div>
+                      
+                      <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                          <img src="3.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+                          <span class="blog-slider__code">15 April 2022</span>
+                          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+                          <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+                          <a href="#" class="blog-slider__button">READ MORE</a>
+                        </div>
+                      </div>
+                      
                     </div>
-                    <div id="chartjs-tooltip"></div>
-                    <div id="doughnut-legend" class="chart-legend"></div>
+                    <div class="blog-slider__pagination"></div>
                   </div>
-                  
-            </div>
+            </div>   
+        
         </section>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js'></script>
-        <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script><script  src="./script3.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+        <script  src="script2.js"></script>
 
         
         <footer>
